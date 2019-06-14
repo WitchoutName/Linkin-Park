@@ -1,0 +1,768 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*
+.                                        |\  /|    /\    |  |\  |
+.                                        | \/ |   /--\   |  | \ |
+.                                        |    |  /    \  |  |  \|
+*/
+
+body{
+    overflow-x: hidden;
+}
+
+.home{
+    background-color: hsl(0, 0%, 12%)  !important;
+}
+
+nav{
+    border-bottom: 3px solid gold;
+    background-color:hsl(0, 0%, 10%);
+}
+
+.nav-button{
+    font-family: 'Jura', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-decoration: none !important;
+    padding: 10px;
+    margin-left: 20px;
+    border-top: 2px solid hsl(0, 0%, 10%);
+    border-bottom: 2px solid hsl(0, 0%, 10%);
+}
+
+.nav-button-active{
+    font-family: 'Jura', sans-serif;
+    font-size: 60px;
+    color: gold;
+    text-decoration: none !important;
+    padding: 10px;
+    margin-left: 20px;
+    border-top: 3px solid hsl(0, 0%, 10%);
+    border-bottom: 3px solid hsl(0, 0%, 10%);
+}
+
+.nav-button-active:hover{
+    color: gold;
+}
+
+.nav-button:hover{
+    background-color: hsl(0, 0%, 12%)  !important;
+    color: white;   
+    border-top: 3px solid gold;
+    border-bottom: 3px solid gold;
+        transition-duration: 200ms;
+}
+
+nav div{
+    float: left;
+}
+
+#logo{
+    width: 75px;
+    height: 75px;
+    margin: 7px 7px 7px -7px;
+}
+
+.logo-link{
+    width: 300px;
+    
+}
+.logo-link-div{
+    float: right;
+}
+
+footer{
+    border-top: 3px solid gold;
+    background-color:hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 60%);
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    height: 53px;
+    
+}
+
+.autor{
+    margin-top: 7px;
+    margin-left: 15px;
+    float: left;
+}
+
+.update{
+    margin-top: 7px;
+    margin-right: 15px;
+    float: right;
+}
+ 
+
+
+
+
+
+
+/*                                               ___            ____
+.                                        |   |  /   \  |\  /|  |    
+.                                        |---|  |   |  | \/ |  |----
+.                                        |   |  \___/  |    |  |____
+*/
+/*                                                       ___
+.                                          /\    |      |   |    /\
+.                                         /--\   |      |---\   /--\
+.                                        /    \  |____  |__ /  /    \
+*/
+
+#alb-list{
+    margin-top: 22px;
+    margin-left: 22px;
+    text-align: center;
+}
+
+#mc{
+    border-right: 3px solid gold;
+    
+}
+
+
+.alb-list-btn{
+    text-align: center;
+    width: 100%;
+    font-family: 'Jura', sans-serif;
+    font-size: 45px;
+    color: white !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px solid hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 12%);
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+
+.alb-list-btn:hover{
+    background-color: hsl(0, 0%, 10%)  !important;
+    color: white;   
+    border-left: 3px solid gold;
+    border-right: 3px solid gold;
+}
+
+.alb-title{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    border-bottom: 3px solid gold;
+    font-size: 45px;
+}
+
+.info-btn{
+    cursor: pointer;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    background-color: hsl(0, 0%, 14%) !important;
+}
+
+
+.info-div{
+    font-family: 'Jura', sans-serif;
+    color: lightgrey;
+    text-align: left;
+    border-top: 3px dotted gold;
+    font-size: 24px;
+    background-color: hsl(0, 0%, 14%) !important;
+    height: 590px;
+    padding-left: 15px;
+}
+
+.article-1{
+    margin: 15px;
+}
+
+.info-img-position{
+    
+    margin: 10px;
+}
+
+.info-img{
+    width: 350px;
+    height: 350px;
+}
+
+.alb-songs{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    border-bottom: 2px solid gold;
+    font-size: 40px;
+}
+
+.alb-song-list{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: 37px;
+    color: white !important;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    text-decoration: none !important;
+    margin: 0px auto;
+    padding-top: 15px;
+    background-color: hsl(0, 0%, 14%) !important;
+}
+
+
+.alb-song-btn{
+    color: white !important;
+    padding: 5px 20px;
+    margin-left: 50px;
+    
+}
+
+.alb-song-btn:hover{
+    color: white !important;
+    background-color: hsl(0, 0%, 12%) !important;
+    text-decoration: none !important;
+}
+
+
+.song-main{
+    background-color: hsl(0, 0%, 14%);
+    margin: 10px auto;
+}
+.song-title{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: 50px;
+    color: gold;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
+.song-img-position{
+     margin: 0px auto;
+     height: 400px;
+    width: 400px;
+}
+.song-img{
+    height: 400px;
+    width: 400px;
+   
+}
+.song-controls{
+    border: none;
+    text-align: center;
+}
+
+audio:focus{
+    outline: none;
+}
+
+.song-lyrics-title{
+    font-family: 'Jura', sans-serif; 
+    font-size: 45px;
+    color: white; 
+    border-bottom: 1px solid white; 
+    padding-bottom: 3px;
+}
+
+.song-lyrics{
+    font-family: 'Jura', sans-serif;
+    font-size: 24px;
+    color: lightgrey;
+    text-align: left;
+
+}
+
+.od-mobil1{
+    display: none;
+}
+
+
+
+
+/*                                        ___           ____          ___            ____
+.                                        /   \  |      |      |\  |  /   \  \    /  |
+.                                        |      |      |----  | \ |  |   |   \  /   |----
+.                                        \___/  |____  |____  |  \|  \___/    \/    |____
+*/
+
+
+
+/*                                                   ___   _______   ___    ___        ____
+.                                        |   |  |   /         |     /   \  |___\   |  |
+.                                        |---|  |  |----|     |     |   |  |  \    |  |----
+.                                        |   |  |   ___/      |     \___/  |   \   |  |____
+*/
+
+#hi-hi-hi{
+    background-image: url(../Images/h-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.h-ti{
+    cursor: pointer;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    color: gold;
+    font-size: 32px;
+}
+
+.h-te{
+    font-family: 'Jura', sans-serif;
+    color: black;
+    text-align: left;
+    border-top: 3px dotted gold;
+    font-size: 22px;
+    text-align: justify;
+}
+
+#h-gif{
+    position: fixed;
+    width: 350px;
+    padding-top: 50px;
+}
+
+
+
+
+/*           ____________________________________________________________________
+.           |                              __    __    __                        |
+.           |                         /|  /  \  /     /                          |
+.           |                        / |   --[  |--\  |--\                       |
+.           |                          |   __/  \__/  \__/                       |
+.           |                                                                    |
+.           |                                  |                                 |
+.           |                                  |                                 |
+.                                            \ | /
+.                                             \|/
+*/
+
+@media screen and (max-width: 1469px){
+    /*
+.                                        |\  /|    /\    |  |\  |
+.                                        | \/ |   /--\   |  | \ |
+.                                        |    |  /    \  |  |  \|
+*/
+
+nav{
+    border-bottom: 2px solid gold;
+    background-color:hsl(0, 0%, 10%);
+}
+
+.nav-button{
+    font-size: 42.6px;
+    padding: 7.1px;
+    margin-left: 14.2px;
+    border-top: 1px solid hsl(0, 0%, 10%);
+    border-bottom: 1px solid hsl(0, 0%, 10%);
+
+}
+
+.nav-button-active{
+    font-size: 42.6px;
+    padding: 7.1px;
+    margin-left: 14.2px;
+    border-top: 1px solid hsl(0, 0%, 10%);
+    border-bottom: 1px solid hsl(0, 0%, 10%);
+}
+
+
+.nav-button:hover{
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+}
+
+#logo{
+    width: 53.25px;
+    height: 53.25px;
+    margin: 5px 5px 5px -5px;
+}
+
+.logo-link{
+    width: 213px;
+    
+}
+
+footer{
+    border-top: 2px solid gold;
+    font-size: 14.2px;
+    height: 37.6px;
+    
+}
+
+.autor{
+    margin-top: 5px;
+    margin-left: 10.65px;
+}
+
+.update{
+    margin-top: 5px;
+    margin-right: 10.56px;
+}
+ 
+
+
+
+
+
+
+/*                                               ___            ____
+.                                        |   |  /   \  |\  /|  |    
+.                                        |---|  |   |  | \/ |  |----
+.                                        |   |  \___/  |    |  |____
+*/
+/*                                                       ___
+.                                          /\    |      |   |    /\
+.                                         /--\   |      |---\   /--\
+.                                        /    \  |____  |__ /  /    \
+*/
+
+#alb-list{
+    margin-top: 15.62px;
+    margin-left: 15.62px;
+}
+
+#mc{
+    border-right: 2px solid gold;
+    
+}
+
+
+.alb-list-btn{
+    font-size: 31.95px;
+    padding-top: 3.55px;
+    padding-bottom: 3.55px;
+    border: 2px solid hsl(0, 0%, 12%);
+}
+
+.alb-list-btn:hover{  
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+}
+
+.alb-title{
+    border-bottom: 2px solid gold;
+    font-size: 31.95px;
+}
+
+.info-btn{
+    font-size: 22.72px;
+}
+
+
+.info-div{
+    border-top: 2px dotted gold;
+    font-size: 17px;
+    height: 418.9px;
+}
+
+.article-1{
+    margin: 10.65px;
+}
+
+.info-img-position{
+    
+    margin: 7.1px;
+}
+
+.info-img{
+    width: 248.5px;
+    height: 248.5px;
+}
+
+.alb-songs{
+    border-bottom: 1px solid gold;
+    font-size: 28.4px;
+}
+
+.alb-song-list{
+    font-size: 25px;
+    border-bottom: 1px solid gold;
+    padding-top: 10.65px;
+}
+
+
+.alb-song-btn{
+    padding: 3.55px 14.2px;
+    margin-left: 35.5px;
+    
+}
+
+.song-main{
+    margin: 10px auto;
+}
+
+.song-title{
+    font-size: 35.5px;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+
+.song-img-position{
+     height: 284px;
+    width: 284px;
+}
+.song-img{
+    height: 284px;
+    width: 284px;
+   
+}
+
+.song-lyrics-title{
+    font-size: 31.95px;
+    border-bottom: 0.71px solid white; 
+    padding-bottom: 2px;
+}
+
+.song-lyrics{
+    font-size: 17px;
+}
+
+/*                                                   ___   _______   ___    ___        ____
+.                                        |   |  |   /         |     /   \  |___\   |  |
+.                                        |---|  |  |----|     |     |   |  |  \    |  |----
+.                                        |   |  |   ___/      |     \___/  |   \   |  |____
+*/
+
+.h-ti{
+    font-size: 22.72px;
+}
+
+.h-te{
+    border-top: 2px dotted gold;
+    font-size: 15.62px;
+}
+
+#h-gif{
+    width: 248.5px;
+    padding-top: 35.5px;
+}
+
+}
+
+/*       
+.                                            /|\
+.                                           / | \
+.            |                                |                                   |
+.            |                                |                                   |
+.            |                             __    __    __                         |
+.            |                        /|  /  \  /     /                           |
+.            |                       / |   --[  |--\  |--\                        |
+.            |                         |   __/  \__/  \__/                        |
+.            |____________________________________________________________________|                         
+*/
+
+/*           ____________________________________________________________________
+.           |                                  __     __                         |
+.           |                           /     /  \   /  \                        |
+.           |                          /___  |    | |    |                       |
+.           |                            |    \__/   \__/                        |
+.           |                                                                    |
+.           |                                 |                                  |
+.           |                                 |                                  |
+.                                           \ | /
+.                                            \|/
+*/
+@media screen and (max-width: 415px){
+    /*
+.                                        |\  /|    /\    |  |\  |
+.                                        | \/ |   /--\   |  | \ |
+.                                        |    |  /    \  |  |  \|
+*/
+
+nav{
+    border-bottom: 1px solid gold;
+    background-color:hsl(0, 0%, 10%);
+}
+
+.nav-button{
+    font-size: 30px;
+    padding: 2.1px;
+    margin-left: 4.2px;
+    border-top: 0.5px solid hsl(0, 0%, 10%);
+    border-bottom: 0.5px solid hsl(0, 0%, 10%);
+
+}
+
+.nav-button-active{
+    font-size: 30px;
+    padding: 2.1px;
+    margin-left: 4.2px;
+    border-top: 0.5px solid hsl(0, 0%, 10%);
+    border-bottom: 0.5px solid hsl(0, 0%, 10%);
+}
+
+
+.nav-button:hover{
+    border-top: 1px solid gold;
+    border-bottom: 1px solid gold;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+    margin: 1.5px 1.5px 1.5px 7.1px;
+}
+
+.logo-link{
+    width: 120px;
+    
+}
+
+footer{
+    border-top: 1px solid gold;
+    font-size: 12px;
+    height: 20px;
+    
+}
+
+.autor{
+    margin-top: 1.5px;
+    margin-left: 3px;
+}
+
+.update{
+    margin-top: 1.5px;
+    margin-right: 3px;
+}
+ 
+
+
+
+
+
+
+/*                                               ___            ____
+.                                        |   |  /   \  |\  /|  |    
+.                                        |---|  |   |  | \/ |  |----
+.                                        |   |  \___/  |    |  |____
+*/
+/*                                                       ___
+.                                          /\    |      |   |    /\
+.                                         /--\   |      |---\   /--\
+.                                        /    \  |____  |__ /  /    \
+*/
+
+#alb-list{
+    margin-top: 15.62px;
+    margin-left: 15.62px;
+}
+
+#mc{
+    border-right: 2px solid gold;
+    
+}
+
+
+.alb-list-btn{
+    font-size: 31.95px;
+    padding-top: 3.55px;
+    padding-bottom: 3.55px;
+    border: 2px solid hsl(0, 0%, 12%);
+
+}
+
+.alb-list-btn:hover{  
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+}
+
+
+
+.alb-title{
+    border-bottom: 2px solid gold;
+    font-size: 31.95px;
+}
+
+.info-btn{
+    font-size: 22.72px;
+}
+
+
+.info-div{
+    border-top: 2px dotted gold;
+    font-size: 17px;
+    height: 1200px;
+}
+
+.article-1{
+    margin: 10.65px;
+}
+
+.info-img-position{
+    
+    margin: 7.1px auto;
+}
+
+.info-img{
+    width: 248.5px;
+    height: 248.5px;
+}
+
+.alb-songs{
+    border-bottom: 1px solid gold;
+    font-size: 28.4px;
+}
+
+.alb-song-list{
+    font-size: 25px;
+    border-bottom: 1px solid gold;
+    padding-top: 10.65px;
+}
+
+
+.alb-song-btn{
+    padding: 3.55px 14.2px;
+    margin-left: 35.5px;
+    
+}
+
+.song-main{
+    margin: 10px auto;
+}
+
+.song-title{
+    font-size: 35.5px;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+
+.song-img-position{
+     height: 284px;
+    width: 284px;
+}
+.song-img{
+    height: 284px;
+    width: 284px;
+   
+}
+
+.song-lyrics-title{
+    font-size: 31.95px;
+    border-bottom: 0.71px solid white; 
+    padding-bottom: 2px;
+}
+
+.song-lyrics{
+    font-size: 17px;
+}
+
+.od-mobil1{
+    display: block;
+}
+}
+
+
+/*       
+.                                            /|\
+.                                           / | \
+.            |                                |                                   |
+.            |                                |                                   |
+.            |                                __     __                           |
+.            |                         /     /  \   /  \                          |
+.            |                        /___  |    | |    |                         |
+.            |                          |    \__/   \__/                          |
+.            |____________________________________________________________________|                         
+*/
