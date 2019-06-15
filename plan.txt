@@ -6,3 +6,4 @@
 6. udelat stranky pro meteora -------------------------------- nike
 7. zpravit clenove index u vsech songu ----------------------- nike
 8. dodelat stranky pro pisnicky z Minutes To Midnight -------- nike
+9. udelat cleny
