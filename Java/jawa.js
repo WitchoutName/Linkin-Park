@@ -102,7 +102,7 @@ $(document).ready(function () {
   $("#ch-b-d").hide();
   $("#m-w-p").hide();
   $("#m-w-d").hide();
-  
+
   $("#m-s-b").on('click', function () {
     $("#m-s-p").toggle();
     $("#m-s-d").toggle();
@@ -193,6 +193,7 @@ $(document).ready(function () {
     $("#m-w-d").hide();
   });
 
+
   $("#m-w-b").on('click', function () {
     $("#m-s-p").hide();
     $("#m-s-d").hide();
@@ -208,25 +209,25 @@ $(document).ready(function () {
     $("#m-w-d").toggle();
   });
 
-// Toggle informací o albu A Thousants Suns
+  // Toggle informací o albu A Thousants Suns
   $("#ats-info-btn").on("click", function () {
     $("#ats-info-div").slideToggle();
     $("#ats-info-btn").html("<b>Informace</b>");
   });
 
-// Toggle informací o albu Hybrid Theory
+  // Toggle informací o albu Hybrid Theory
   $("#ht-info-btn").on("click", function () {
     $("#ht-info-div").slideToggle();
     $("#ht-info-btn").html("<b>Informace</b>");
   });
 
-// Toggle informací o albu Living Things
+  // Toggle informací o albu Living Things
   $("#lt-info-btn").on("click", function () {
     $("#lt-info-div").slideToggle();
     $("#lt-info-btn").html("<b>Informace</b>");
   });
 
-// Toggle informací o albu Meteora
+  // Toggle informací o albu Meteora
   $("#m-info-btn").on("click", function () {
     $("#m-info-div").slideToggle();
     $("#m-info-btn").html("<b>Informace</b>");
@@ -238,13 +239,19 @@ $(document).ready(function () {
     $("#mtm-info-btn").html("<b>Informace</b>");
   });
 
-    // Toggle informací o albu One More Light
-    $("#oml-info-btn").on("click", function () {
-      $("#oml-info-div").slideToggle();
-      $("#oml-info-btn").html("<b>Informace</b>");
-    });
-  
+  // Toggle informací o albu One More Light
+  $("#oml-info-btn").on("click", function () {
+    $("#oml-info-div").slideToggle();
+    $("#oml-info-btn").html("<b>Informace</b>");
+  });
 
-// Datum posledního updatu
+  // Toggle informací o albu The Hunting Party
+  $("#thp-info-btn").on("click", function () {
+    $("#thp-info-div").slideToggle();
+    $("#thp-info-btn").html("<b>Informace</b>");
+  });
+
+
+  // Datum posledního updatu
   $("#datum").html("13. 6. 2019");
- });
+});
